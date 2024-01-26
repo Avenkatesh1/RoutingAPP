@@ -1,0 +1,25 @@
+<h1>interpolation</h1>
+<h2>My name is:{{name}}</h2>
+<h2>my name length is:{{name.length}}</h2>
+<h1>My Name length : {{name.toUpperCase()}}</h1>
+<h1>My Name length : {{name.toLowerCase()}}</h1>
+<h1>My Name from method : {{getMyName()}}</h1> 
+
+<h1>My Name is : {{name}}</h1>
+<h1>My Name from emp object : {{emp.fname}}</h1>
+<h1>My Age from emp object : {{emp.age}}</h1>
+<h1>My Age from emp object : {{emp.age > 10}}</h1>
+you can use expressions
+<h1>{{2+8+6-4}}</h1>
+<h1>{{emp.age + 10}}</h1>
+Assignments are not Allowed
+<!-- <h1>{{ x = 20}}</h1> -->
+
+<!-- {{ x++}} -->
+
+<h1>{{employee | json}}</h1>
+<h1>{{employee[1].name}}</h1>
+
+<h1>{{emp.lname ? emp.lname : 'No Last Name is Available'}}</h1>
+
+<img src={{imgURl}}>

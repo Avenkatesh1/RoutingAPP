@@ -1,0 +1,10 @@
+<h1>prperty-binding</h1>
+<!-- <input type="text" value="Satish"> -->
+<input type="text" value="name" id="name">
+<input type="text" value={{name}} id={{name}}>
+<input type="text" [value]="name" [id]="name">
+
+<hr>
+<input type="text" [value]="name" [id]="name" disabled>
+<input type="text" [value]="name" [id]="name" disabled={{isDisabled}}>
+<input type="text" [value]="name" [id]="name" [disabled]="isDisabled">

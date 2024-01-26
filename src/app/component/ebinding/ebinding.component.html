@@ -1,0 +1,16 @@
+
+<h1>Event binding:</h1>
+<button class="btn btn-primary" (click)="onClickPrimary()">click Me</button>
+<button class="btn btn-success" (dblclick)="onDbClickSuccess()">click Me</button>
+<button class="btn btn-danger" (mouseover)="onOverDanger()">click Me</button>
+<button class="btn btn-danger" (mouseout)="onOutDanger()">click Me</button>
+<button class="btn btn-danger" (mousemove)="onMouseMove()">click Me</button>
+<hr>
+<input type="text" name="name" id="name" value="keydown" (keydown)="keydown()">
+<input type="text" name="name" id="name" value="keyUp" (keyup)="keyUp()">
+<input type="text" name="name" id="name" value="key press" (keypress)="keypress()">
+<hr>
+<input type="text" (focus)="focus()">
+
+
+

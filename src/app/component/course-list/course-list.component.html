@@ -1,0 +1,8 @@
+<h1>Course-List:</h1>
+<ul class="items">
+    <h2><li *ngFor="let x of CourseList" style="color: blue;">
+        <span class="badge">{{x.id}}. </span>{{x.name}}
+    </li></h2>
+</ul>
+<button style="padding: 10px; margin: 20px;"><a href="back.html" (click)="goBack()">Back</a>    </button>
+ 
